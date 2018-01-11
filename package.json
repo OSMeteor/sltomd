@@ -1,6 +1,6 @@
 {
   "name": "sltomd",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "convert strongloop swagger.json to markdown file",
   "main": "index",
   "scripts": {
@@ -13,7 +13,9 @@
   "engines": {
     "node": "*"
   },
- "bin" : { "sltomd" : "./bin/sltomd" }, 
+  "bin": {
+    "sltomd": "./bin/sltomd"
+  },
   "keywords": [
     "strongloop",
     "loopback",
@@ -24,7 +26,8 @@
     "commander": "^2.12.2",
     "eutil": "^0.0.13",
     "fs-extra": "^5.0.0",
-    "json-format": "^1.0.1"
+    "json-format": "^1.0.1",
+    "request": "^2.83.0"
   },
   "author": {
     "name": "osmeteor",
