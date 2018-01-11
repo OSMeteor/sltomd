@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+'use strict';
+
 var eutil=require("eutil");
 var jsonFormat = require('json-format');
 var fs = require('fs-extra');
