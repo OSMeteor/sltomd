@@ -1,6 +1,6 @@
 {
   "name": "sltomd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "convert strongloop swagger.json to markdown file",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "engines": {
     "node": "*"
   },
+ "bin" : { "sltomd" : "./index.js" }, 
   "keywords": [
     "strongloop",
     "loopback",
