@@ -1,6 +1,6 @@
 {
   "name": "sltomd",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "convert strongloop swagger.json to markdown file",
   "main": "index",
   "scripts": {
