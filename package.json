@@ -1,7 +1,7 @@
 {
   "name": "sltomd",
-  "version": "0.0.1",
-  "description": "convert strongloop swagger.json to markdown",
+  "version": "0.0.2",
+  "description": "convert strongloop swagger.json to markdown file",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
@@ -19,6 +19,12 @@
     "md",
     "convert to markdown"
   ],
+  "dependencies": {
+    "commander": "^2.12.2",
+    "eutil": "^0.0.13",
+    "fs-extra": "^5.0.0",
+    "json-format": "^1.0.1"
+  },
   "author": {
     "name": "osmeteor",
     "email": "meteorsoftware@qq.com"
