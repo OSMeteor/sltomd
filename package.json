@@ -1,0 +1,36 @@
+{
+  "name": "sltomd",
+  "version": "0.0.1",
+  "description": "convert strongloop swagger.json to markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSMeteor/sltomd.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "strongloop",
+    "loopback",
+    "md",
+    "convert to markdown"
+  ],
+  "author": {
+    "name": "osmeteor",
+    "email": "meteorsoftware@qq.com"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/OSMeteor/sltomd/raw/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/OSMeteor/sltomd/issues"
+  },
+  "homepage": "https://github.com/OSMeteor/sltomd"
+}
