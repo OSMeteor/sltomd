@@ -1,11 +1,10 @@
 # sltomd
-- convert strongloop swagger.json to markdown file
+- convert [strongloop](https://strongloop.com/) swagger.json to markdown file
 
 ## how to use it
-- npm install sltomd -g
-
+- ``npm install sltomd -g``
 ```javascript
-sltomd tomd tomd http://0.0.0.0:3000/explorer/swagger.json  mypath
+sltomd tomd http://0.0.0.0:3001/explorer/swagger.json mypath
 ```
 ## snapshot
 ![help](./PowerDesigner165.png)
@@ -13,7 +12,10 @@ sltomd tomd tomd http://0.0.0.0:3000/explorer/swagger.json  mypath
 ![help](./WX20180112-095459@2x.png)
 
 
+## issues
+- [https://github.com/OSMeteor/sltomd/issues](https://github.com/OSMeteor/sltomd/issues)
+
 ## other 
-	- [https://strongloop.com/](https://strongloop.com/)
-	- [https://github.com/OSMeteor/eutil.git](https://github.com/OSMeteor/eutil.git)
-	- [https://github.com/strongloop](https://github.com/strongloop)
+- [https://strongloop.com/](https://strongloop.com/)
+- [https://github.com/OSMeteor/eutil.git](https://github.com/OSMeteor/eutil.git)
+- [https://github.com/strongloop](https://github.com/strongloop)
