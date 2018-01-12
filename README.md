@@ -19,3 +19,8 @@ sltomd tomd http://0.0.0.0:3001/explorer/swagger.json mypath
 - [https://strongloop.com/](https://strongloop.com/)
 - [https://github.com/OSMeteor/eutil.git](https://github.com/OSMeteor/eutil.git)
 - [https://github.com/strongloop](https://github.com/strongloop)
+
+## Recommend
+- 通过url获取swagger.json
+- 通过 swagger.json 解析对象 获取指定文本生成 md 文件
+- swagger.json -> .md -> gitbook ->  pdf  ----> 交付
