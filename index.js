@@ -255,7 +255,7 @@ function tomd(swagger,_swagger,path) {
             if(tagName_str!==""&&tagName_str!==item.tagName){
                 let r_str=Request_Name_str+bodyName_str;
                 // console.log(r_str)
-                console.log('生成文件%s ', `${mdFilePath}/${tagName_str}.md`);
+                console.log('生成文件%s', `${mdFilePath}/${tagName_str}.md`);
                 fs.outputFile(`${mdFilePath}/${tagName_str}.md`, r_str, err => {  });
                 tagName_str="";
                 Request_Name_str="";
@@ -267,7 +267,7 @@ function tomd(swagger,_swagger,path) {
            if(tagName_str!==""&&_reduce_index==Request_obj.length){
                let r_str=Request_Name_str+bodyName_str;
                // console.log(r_str)
-                console.log('生成文件%s 成功', `${mdFilePath}/${tagName_str}.md`);
+                console.log('生成文件%s', `${mdFilePath}/${tagName_str}.md`);
                fs.outputFile(`${mdFilePath}/${tagName_str}.md`, r_str, err => {  });
                tagName_str="";
                Request_Name_str="";
