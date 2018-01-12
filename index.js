@@ -255,6 +255,7 @@ function tomd(swagger,_swagger,path) {
             if(tagName_str!==""&&tagName_str!==item.tagName){
                 let r_str=Request_Name_str+bodyName_str;
                 // console.log(r_str)
+                console.log('生成文件%s ', `${mdFilePath}/${tagName_str}.md`);
                 fs.outputFile(`${mdFilePath}/${tagName_str}.md`, r_str, err => {  });
                 tagName_str="";
                 Request_Name_str="";
@@ -266,6 +267,7 @@ function tomd(swagger,_swagger,path) {
            if(tagName_str!==""&&_reduce_index==Request_obj.length){
                let r_str=Request_Name_str+bodyName_str;
                // console.log(r_str)
+                console.log('生成文件%s 成功', `${mdFilePath}/${tagName_str}.md`);
                fs.outputFile(`${mdFilePath}/${tagName_str}.md`, r_str, err => {  });
                tagName_str="";
                Request_Name_str="";
@@ -304,25 +306,6 @@ program
         // console.log('Deploying "%s"', url,path,program.save_path,program.url);
     });
 program.parse(process.argv);
-
-
-
-// var url="http://10.40.253.187:3001/explorer/swagger.json";
-// get_swaggerObjFromUrl(url,(err,obj,_obj)=>{
-//     if(err) console.error("not find swagger.json from url");
-//     else{
-//         tomd(obj,Object.assign({},obj,_obj))
-//     }
-//     // console.log(err,obj)
-// })
-
-
-
-
-
-
-
-
 
 // 通过url获取swagger.json
 // 通过 swagger.json 解析对象 获取指定文本生成 md 文件
