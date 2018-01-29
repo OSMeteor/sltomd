@@ -283,8 +283,9 @@ function tomd(swagger,_swagger,path) {
 function get_swaggerObjFromUrl(url,cb) {
     request.get(url, (err, res, body) => {
         request.get(url, (err2, res2, body2) => {
-            cb(err,JSON.parse(body),JSON.parse(body2));
-
+            if(!eutil.isUndefined(body) &&!eutil.isUndefined(body2))
+             cb(err,JSON.parse(body),JSON.parse(body2));
+           else console.error('please check url: %s is correct ?',url);
         });
 
     });
